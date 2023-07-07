@@ -1,0 +1,35 @@
+.contact{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container{
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.contact-icons{
+    display: flex;
+    gap: 20px;
+}
+.contact-mail{
+    display: flex;
+}
+.contact-container input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+.contact-mail button{
+    padding: 10px;
+    color: white;
+    background-color: #333;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    cursor: pointer;
+}

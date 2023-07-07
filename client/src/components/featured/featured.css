@@ -1,0 +1,22 @@
+.feature{
+    margin: 100px 200px;
+}
+.feature-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.feature-top h1{
+    flex: 2;
+    text-transform: capitalize;
+}
+.feature-top p{
+    flex: 3;
+    color: grey;
+}
+.feature-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
